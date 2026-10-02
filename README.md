@@ -146,6 +146,8 @@
 #### 使用说明
 
 1.  具体使用说明看 轨迹写入照片程序操作说明.pdf 在上传的 源代码目录中。
+    下载链接：
+    https://gitee.com/xiaoyf/photo_toolbox/raw/master/%E8%BD%A8%E8%BF%B9%E5%86%99%E5%85%A5%E7%85%A7%E7%89%87%E7%A8%8B%E5%BA%8F%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E.pdf
 
 
 #### 参与贡献
