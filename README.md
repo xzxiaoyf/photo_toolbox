@@ -7,21 +7,36 @@
 
 一、软件列表
 下表是工具箱的全部成员，后文按此顺序展开。
+
 序号	工具	脚本文件	一句话功能
 1	GPS 轨迹写入照片	gps_write_photo_v2.py	按轨迹文件给照片 / 视频写入  GPS
+
 2	高德地图显示拍摄位置	photo_exif_viewer_v2.py	在地图上看单张或整目录照片的拍摄点
+
 3	轨迹及拍摄位置地图	photo_track_map_v3.py	轨迹与照片同图显示
+
 4	Sony 快门数查询	sony_exif_shutter_v2.py	读索尼机身真实快门数
+
 5	相机 EXIF 信息读取	sony_exif_reader_v2.py	导出文件全部元数据（诊断用）
+
 6	GPX 时间修正	xiaomi_time_corrector_v2.py	修正小米导出轨迹的时区错误
+
 7	轨迹插值补全	gpx_track_interpolator_v2.py	按时间补齐缺失的轨迹采样点
+
 8	GPX 轨迹方向反转	gpx_reverser2.py	把轨迹整体倒过来
+
 9	照片按拍摄年月分类	photo_classifier3.py	按年月 / 年月日归档照片视频
+
 10	照片按 GPS 地点 + 日期分类	photo_gps_classifier5.py	按国家 / 城市 / 日期归档
+
 11	修改照片 EXIF 信息	edit_exif3.py	查看并修改照片、视频的元数据
+
 12	照片 GPS 坐标管理	photo_gps_manager4.py	在地图上增改照片坐标
+
 13	HEIC/HEIF/HIF 转 JPG	heic_to_jpg_converter_gui.py	手机照片格式批量转  JPG
+
 14	鸟类照片批量识别	bird_scanner.py	本地模型识别照片里的鸟
+
 
 二、十四个工具是分别写的，但它们共享一套相同的取舍。这些原则不是事先定好的规范，而是被真实问题反复教育之后固定下来的。
 
