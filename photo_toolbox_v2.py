@@ -18,7 +18,7 @@
 # 每个子工具（Windows 加 --windowed 去黑窗）
 # pyinstaller --onefile -n gps_write_photo_v2 gps_write_photo_v2.py
 # 主程序
-#  pyinstaller --onefile --windowed -n PhotoToolbox photo_toolbox_v2.py
+# pyinstaller --onefile --windowed -n PhotoToolbox photo_toolbox_v2.py
 
 
 import tkinter as tk
