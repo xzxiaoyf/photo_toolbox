@@ -75,6 +75,8 @@ TOOLS = [
      "HEIC/HEIF/HIF → JPG 批量转换器"),
     ("⏱️ 鸟类照片批量识别", "bird_scanner.py",
      "鸟类照片批量识别"),
+    ("⏱️ 运动轨迹格式互转工具", "track_converter.py",
+     "GPX / TCX / FIT 三种格式任意互转"),
 ]
 
 
@@ -121,7 +123,7 @@ class MainApp:
     def __init__(self, root):
         self.root = root
         self.root.title("🧰 摄影工具箱")
-        self.root.geometry("560x630")
+        self.root.geometry("560x670")
         self.root.resizable(False, False)
 
         self.frozen = bool(getattr(sys, "frozen", False))
