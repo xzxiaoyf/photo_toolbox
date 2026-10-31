@@ -77,6 +77,10 @@ TOOLS = [
      "鸟类照片批量识别"),
     ("⏱️ 运动轨迹格式互转工具", "track_converter.py",
      "GPX / TCX / FIT 三种格式任意互转"),
+    ("iPhone/iPad 照片批量导出到 Mac 工具 v3", "iphone_photo_exporter.py",
+     "iPhone/iPad 照片批量导出到 Mac 工具 v3"),
+    ("Android 手机照片/视频批量导出到电脑工具", "android_photo_exporter.py",
+     "Android 手机照片/视频批量导出到电脑工具"),
 ]
 
 
@@ -123,7 +127,7 @@ class MainApp:
     def __init__(self, root):
         self.root = root
         self.root.title("🧰 摄影工具箱")
-        self.root.geometry("560x670")
+        self.root.geometry("560x770")
         self.root.resizable(False, False)
 
         self.frozen = bool(getattr(sys, "frozen", False))
